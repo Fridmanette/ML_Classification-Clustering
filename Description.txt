@@ -1,0 +1,18 @@
+Data taken from: https://www.kaggle.com/datasets/kaushiksuresh147/customer-segmentation
+
+An automobile company is interested in entering a new market, assuming, after extensive research, that the potential market can be classified similarly to their existing market, where customers are segmented in one of four segments, namely A, B, C, or D.
+The 'Train' dataset describe the exisitng market, and the 'Test' dataset describes the potential market. 
+
+variables:
+Variable	    Definition
+ID	            Unique ID
+Gender	        Gender of the customer
+Ever_Married  	Marital status of the customer
+Age	            Age of the customer
+Graduated	      Is the customer a graduate?
+Profession	    Profession of the customer
+Work_Experience	Work Experience in years
+Spending_Score	Spending score of the customer
+Family_Size   	Number of family members for the customer (including the customer)
+Var_1	          Anonymised Category for the customer
+Segmentation	  (target) Customer Segment of the customer
