@@ -1,2 +1,26 @@
 Data taken from: https://www.naturalearthdata.com/downloads/
 
+This repository contains a comprehensive analysis of an automobile company's customer segmentation strategy. The objective is to 
+evaluate the applicability of an existing segmentation model to a new market using machine learning and clustering techniques
+
+Machine Learning Approaches
+1. Classification Models:
+- Decision Trees, Ensemble Methods (Random Forest, Gradient Boosted Trees, AdaBoost), and Support Vector Machines (SVM).
+- Performance metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and Learning Curves.
+
+2. Hyperparameter Tuning:
+- Conducted using GridSearchCV and RandomizedSearchCV to optimize model parameters.
+
+3. Class Imbalance Handling:
+- Techniques: Synthetic Minority Over-sampling Technique (SMOTE), RandomUnderSampler, and Class Weights.
+
+4. Clustering:
+- Applied K-Means and Agglomerative Clustering for alternative segmentation.
+- Visualized clusters using t-SNE and dendrograms.
+- Evaluated clustering quality using Silhouette Scores.
+
+Tools and Technologies
+- Data Processing: Pandas, NumPy
+- Machine Learning: Scikit-learn, XGBoost, SMOTE
+- Clustering: K-Means, Agglomerative Clustering
+- Visualization: Matplotlib, Seaborn, t-SNE, Dendrograms
